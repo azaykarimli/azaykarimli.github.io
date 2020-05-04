@@ -1,0 +1,9 @@
+.navbar.scrolled{
+
+    background: rgb(95, 168, 236);
+    transition: background 1s;
+}
+
+.my-nav .navbar-nav .nav-item:hover{
+    color: #EA1C2C;
+}

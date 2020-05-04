@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+
+body{
+
+	/*margin-left: 10px;*/
+
+	border: 20px solid #bdc3c7;
+    width: 80%;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin:20px auto;
+    padding: 20px;
+	max-width: 700px;
+}
+
+#date{
+	margin-left: 10px;
+	color: #3498db;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+h2{
+
+	margin-left: 10px;
+	color: #2c3e50;
+	font-weight: bold;
+	font-size: 2.0rem;
+}
+
+#prior{
+
+	margin-left: 13px;
+	border-left: 7px solid  #bdc3c7;
+	padding-left: 3px;
+
+}
+
+p{
+
+	margin-left: 10px;
+}
+
+#date2{
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 6px;
+	color: #3498db;
+	text-transform: uppercase;
+    letter-spacing: 2px;
+    
+
+}
+
