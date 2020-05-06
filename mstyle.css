@@ -25,3 +25,15 @@
     background-color: black;
     color: white;
 }
+
+@media (max-width: 1200px){
+
+    #topheader{
+
+        font-weight: 100;
+        font-size: 3rem;
+    
+
+    }
+
+}
