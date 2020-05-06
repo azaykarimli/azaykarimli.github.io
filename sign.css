@@ -36,10 +36,9 @@ body {
 	display: flex;
 	display: -webkit-flex;
 }
-.form-v6-content .form-left {
-	margin-bottom: -6px;
-}
+
 .form-v6-content .form-left img {
+	height: 100%;
 	border-top-left-radius: 8px;
 	border-bottom-left-radius: 8px;
 }
