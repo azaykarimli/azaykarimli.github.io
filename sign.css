@@ -142,9 +142,17 @@ input:-moz-placeholder { /* Firefox 18- */
 		-webkit-flex-direction:  column;
 	}
 	.form-v6-content .form-left {
+		
 		width: 100%;
+		
+	
+		
 	}
+
+	
 	.form-v6-content .form-left img {
+		
+		
 		width: 100%;
 		border-bottom-left-radius: 0px;
 	    border-top-right-radius: 8px;
