@@ -71,7 +71,7 @@ h1{
 }
 
 #message{
-    
+    height: 100%;
     display: inline-block;
     vertical-align: middle;
     text-align: center;
