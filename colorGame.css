@@ -19,6 +19,7 @@ body{
 }
 
 #container{
+    
     max-width: 600px;
     margin: 0 auto;
 }
@@ -39,10 +40,29 @@ h1{
 }
 
 #strap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
     height: 30px;
-    text-align: center;
     background-color: blanchedalmond;
+    
 }
+
+.row{
+    display: flex;   
+    flex-direction: row;
+    
+}
+
+#right{
+    padding-right: 360px;
+}
+#left{
+    padding-left: 360px;
+}
+
+
 
 
 .selected{
@@ -51,7 +71,12 @@ h1{
 }
 
 #message{
+    
     display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
     width: 20%;
 }
 
@@ -86,3 +111,18 @@ button{
     -moz-transition: all 0.6s;
     outline: none;
 }
+
+
+ 
+
+
+@media (max-width: 600px) {
+    #strap {
+    height: 60px;
+    display:grid;
+    grid-auto-flow: column;
+    }
+
+    
+}
+
