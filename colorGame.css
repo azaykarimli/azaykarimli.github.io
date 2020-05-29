@@ -119,10 +119,18 @@ button{
 @media (max-width: 600px) {
     #strap {
     height: 60px;
-    display:grid;
-    grid-auto-flow: column;
+    display:flex;
+    /* grid-auto-flow: column; */
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: small;
+    }
+    #right{
+        padding-right: 0;
+    }
+    #left{
+        padding-left: 0;
     }
 
-    
 }
 
