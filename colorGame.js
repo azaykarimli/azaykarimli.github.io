@@ -49,6 +49,7 @@ function setUpColorsSquares() {
                 playButton.textContent = "Play again?";
                 changeColor(clickedColor);
                 h1.style.backgroundColor = pickedColor;
+                displayMessage.style.backgroundColor = pickedColor;
 
 
             }
@@ -86,6 +87,7 @@ function reset() {
 
     }
     h1.style.backgroundColor = "steelblue";
+    displayMessage.style.backgroundColor = "blanchedalmond";
 }
 
 
