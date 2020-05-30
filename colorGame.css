@@ -74,6 +74,7 @@ h1{
 #message{
     display: inline-block;
     margin: auto;
+    font-weight: 700;
   }
 
 
