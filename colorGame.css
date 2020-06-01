@@ -116,6 +116,9 @@ button{
     #message{
         padding: 18px 2px;
     }
+    #displayColor{
+        font-size: 125%;
+    }
 
 }
 
